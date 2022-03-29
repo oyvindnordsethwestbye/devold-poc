@@ -127,7 +127,7 @@ export async function getStaticProps() {
 export default function Home({ data }) {
   const grid = data?.data?.grid;
   const meta = {
-    description: "Great stories happen to those who can tell them",
+    description: "Ullundertøy i merinoull for dame, herre og barn",
     type: "website",
   };
   return (

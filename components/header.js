@@ -88,13 +88,11 @@ const LogoWrapper = styled.div`
   overflow: hidden;
   cursor: pointer;
   svg {
-    width: 130px;
-    height: 130px;
+    width: 400px;
+    height: 100px;
     margin-top: 10px;
     ${({ theme }) => theme.responsive.mdPlus} {
       margin-top: 0;
-      width: 100%;
-      height: 200px;
     }
   }
   ${({ theme }) => theme.responsive.xs} {
@@ -110,15 +108,15 @@ const Header = ({ tint }) => {
     <Outer>
       <Navigation color={tints[tint]}>
         <Link to="/stories" href="/stories">
-          <NavLink active={activeNav === "/stories"}>Stories</NavLink>
+          <NavLink active={activeNav === "/stories"}>Vår historie</NavLink>
         </Link>
         <Link to="/shop" href="/shop">
-          <NavLink active={activeNav === "/shop"}>Shop</NavLink>
+          <NavLink active={activeNav === "/shop"}>Produkter</NavLink>
         </Link>
       </Navigation>
       <Link to="/" href="/">
         <LogoWrapper>
-          <Logo size="200" color={tints[tint]} />
+          <Logo color={tints[tint]} />
         </LogoWrapper>
       </Link>
       <Actions>
