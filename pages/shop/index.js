@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import React from "react";
 import Hero from "components/hero";
 import Layout from "components/layout";
 import Product from "components/microformats/product";

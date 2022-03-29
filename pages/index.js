@@ -33,7 +33,7 @@ const GridRow = styled.section`
 // Fetching a grid from our Voyage example directly by ID, change the ID your grid or fetch it from a folder with gridrelation, its up to you.
 const query = `
   {
-    grid(id:"5f6c7e9033ed22001d27982c"){
+    grid(id:"6242ed00a9cb17ee21c9d9e9"){
       id
       rows{
         columns{

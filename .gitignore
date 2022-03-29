@@ -32,3 +32,5 @@ jspm_packages/
 
 # Next build output
 .next
+# Local Netlify folder
+.netlify
